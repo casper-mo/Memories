@@ -1,0 +1,68 @@
+.post__wrapper {
+  position: relative;
+  border: none;
+}
+.post__wrapper img {
+  height: 300px;
+}
+.post_head {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.post_head > h6,
+.post_head > p {
+  color: #fff;
+  margin-bottom: 4px;
+}
+.post_head > h6 {
+  text-transform: uppercase;
+}
+.post_head > p {
+  font-size: 12px;
+}
+.post_edit {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+}
+.post_edit > button {
+  background-color: transparent !important;
+  border: none !important;
+}
+.post_edit > button:focus,
+.post_edit > button:active {
+  box-shadow: none !important;
+}
+.post__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+.post__actions button {
+  background-color: transparent !important;
+}
+.post__actions .btn__like {
+  color: #007bff !important;
+}
+.post__actions .btn__delete {
+  color: #dc3545 !important;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.content p {
+  height: 50px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 300;
+}
+.post__actions {
+  margin-bottom: 15px;
+}

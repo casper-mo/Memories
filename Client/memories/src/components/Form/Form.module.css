@@ -1,0 +1,22 @@
+/* .memorise__form {
+  margin-top: 20px;
+} */
+.memorise__form h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.submit__btn,
+.clear__btn {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.submit__btn {
+  margin-top: 10px;
+}
+.clear__btn {
+  margin-top: 5px;
+}
+.memorise__form small {
+  padding: 6px;
+}
